@@ -1,0 +1,17 @@
+name: simplicity
+description: Wallpaper Engine GUI for Linux
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path: ^1.9.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/pfp.gif
